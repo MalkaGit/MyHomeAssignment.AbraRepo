@@ -12,6 +12,36 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoansLib", "LoansLib\LoansL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoansAPI", "LoansAPI\LoansAPI.csproj", "{506FF3A1-D218-4A82-9B61-C7D34D74ACFE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "loans.ui.react.app", "loans.ui.react.app", "{732B273E-CAC0-4C74-AB4E-F24C2A561D73}"
+	ProjectSection(SolutionItems) = preProject
+		loans.ui.react.app\.gitignore = loans.ui.react.app\.gitignore
+		loans.ui.react.app\package-lock.json = loans.ui.react.app\package-lock.json
+		loans.ui.react.app\package.json = loans.ui.react.app\package.json
+		loans.ui.react.app\README.md = loans.ui.react.app\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E518624-4C07-4506-A35F-3A361B6CC691}"
+	ProjectSection(SolutionItems) = preProject
+		loans.ui.react.app\src\App.css = loans.ui.react.app\src\App.css
+		loans.ui.react.app\src\App.js = loans.ui.react.app\src\App.js
+		loans.ui.react.app\src\App.test.js = loans.ui.react.app\src\App.test.js
+		loans.ui.react.app\src\index.css = loans.ui.react.app\src\index.css
+		loans.ui.react.app\src\index.js = loans.ui.react.app\src\index.js
+		loans.ui.react.app\src\logo.svg = loans.ui.react.app\src\logo.svg
+		loans.ui.react.app\src\reportWebVitals.js = loans.ui.react.app\src\reportWebVitals.js
+		loans.ui.react.app\src\setupTests.js = loans.ui.react.app\src\setupTests.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{78ACD12D-6C7E-4088-8A59-EDBC90CBDD3E}"
+	ProjectSection(SolutionItems) = preProject
+		loans.ui.react.app\public\favicon.ico = loans.ui.react.app\public\favicon.ico
+		loans.ui.react.app\public\index.html = loans.ui.react.app\public\index.html
+		loans.ui.react.app\public\logo192.png = loans.ui.react.app\public\logo192.png
+		loans.ui.react.app\public\logo512.png = loans.ui.react.app\public\logo512.png
+		loans.ui.react.app\public\manifest.json = loans.ui.react.app\public\manifest.json
+		loans.ui.react.app\public\robots.txt = loans.ui.react.app\public\robots.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +59,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E518624-4C07-4506-A35F-3A361B6CC691} = {732B273E-CAC0-4C74-AB4E-F24C2A561D73}
+		{78ACD12D-6C7E-4088-8A59-EDBC90CBDD3E} = {732B273E-CAC0-4C74-AB4E-F24C2A561D73}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D42C7AE8-45EF-4422-B894-EAA9F63C5204}

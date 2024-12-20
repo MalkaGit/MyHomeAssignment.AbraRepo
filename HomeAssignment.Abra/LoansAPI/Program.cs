@@ -1,7 +1,7 @@
 using LoansLib.BL.Interfaces;
 using LoansLib.BL.Services;
-using LoansLib.Data;
 using LoansLib.Data.Interfaces;
+using LoansLib.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

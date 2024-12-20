@@ -1,6 +1,6 @@
 Uage:
 a. start Loans.API
-   endpoint is http://localhost:5094/api/Loan
+   endpoint is http://localhost:5070/api/Loan
 
 b. start react app
    MyHomeAssignments\loans.ui.react.app>npm start
@@ -15,3 +15,5 @@ b. using async, returning all details to client
 
 Potponed: 
 a. read prime and monthly intrest from config
+c. add logging to BL 
+d. repo reading from db or json files
