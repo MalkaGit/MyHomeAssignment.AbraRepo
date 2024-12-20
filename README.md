@@ -1,7 +1,7 @@
 # MyHomeAssignment.AbraRepo
 
 
-Uage:
+Usage:
 
 a. start Loans.API
    endpoint is http://localhost:5070/api/Loan
