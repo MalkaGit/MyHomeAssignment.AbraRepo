@@ -2,6 +2,7 @@
 
 
 Uage:
+
 a. start Loans.API
    endpoint is http://localhost:5070/api/Loan
 
@@ -13,6 +14,7 @@ Feaures:
 
 Note: 
 a. For now, anyone can access the API
+
 b. using async, returning all details to client
 
 
