@@ -20,6 +20,7 @@ b. using async, returning all details to client
 
 
 Potponed: 
+
 a. read prime and monthly intrest from config
 
 c. add logging to BL 
