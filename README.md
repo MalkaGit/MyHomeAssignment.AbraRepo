@@ -13,6 +13,7 @@ b. start react app
 Feaures:
 
 Note: 
+
 a. For now, anyone can access the API
 
 b. using async, returning all details to client
