@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LoansLib.Data
+namespace LoansLib.Data.Repositories
 {
     public class CustomerRepository : ICustomerRepository
     {

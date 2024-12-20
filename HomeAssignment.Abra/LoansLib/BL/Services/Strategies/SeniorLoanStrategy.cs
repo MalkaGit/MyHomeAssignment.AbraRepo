@@ -10,8 +10,8 @@ namespace LoansLib.BL.Services.Strategies
 {
     public class SeniorLoanStrategy : ILoanStrategy
     {
-        private readonly double _primeIntrest = 1;  //TODO: from config in consturcotr
-        private readonly double _extraMonthIntrest = 0.15;  //TODO: from config ith ddependency injection 
+        private readonly double _primeIntrest = 1;          //TODO: from config - dependency injection 
+        private readonly double _extraMonthIntrest = 0.15;  //TODO: from config - dependency injection 
 
         public CalcLoanResponse CalcLoan(CalcLoanRequest calcLoanRequest)
         {
